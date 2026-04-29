@@ -837,7 +837,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1172085503}
-  - component: {fileID: 1172085504}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -862,19 +861,6 @@ Transform:
   - {fileID: 1268498851444038072}
   m_Father: {fileID: 8338988565591873055}
   m_LocalEulerAnglesHint: {x: -1.946, y: 76.108, z: -7.816}
---- !u!114 &1172085504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172085502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110b63f66c798464783d0120f332d654, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  muzzleFlash: {fileID: 1268498851463511116}
 --- !u!4 &1205879061 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
@@ -1214,11 +1200,6 @@ PrefabInstance:
 --- !u!4 &1268498851444038072 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5425018305456703475, guid: a8e4e5a1e4b85174782417b0b09fcb08, type: 3}
-  m_PrefabInstance: {fileID: 1895532022441362609}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1268498851463511116 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5629785149639586615, guid: a8e4e5a1e4b85174782417b0b09fcb08, type: 3}
   m_PrefabInstance: {fileID: 1895532022441362609}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1895532022441362609
