@@ -45,11 +45,16 @@ MonoBehaviour:
     failOperation: 0
     zFailOperation: 0
   m_ShadowTransparentReceive: 0
+<<<<<<< HEAD
   m_RenderingMode: 2
+=======
+  m_RenderingMode: 0
+>>>>>>> e51ca0ba76a85181332468a4ca1e3ad9146f84e2
   m_DepthPrimingMode: 0
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
+<<<<<<< HEAD
 --- !u!114 &1002035807535710140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,3 +69,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   _baseProfile: {fileID: 11400000, guid: f2d4d916a6612574cad220d125febbf2, type: 2}
+=======
+>>>>>>> e51ca0ba76a85181332468a4ca1e3ad9146f84e2
