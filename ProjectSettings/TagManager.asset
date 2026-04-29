@@ -2,11 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-<<<<<<< HEAD
   serializedVersion: 3
-=======
-  serializedVersion: 2
->>>>>>> e51ca0ba76a85181332468a4ca1e3ad9146f84e2
   tags: []
   layers:
   - Default
@@ -47,38 +43,3 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
-<<<<<<< HEAD
-  m_MigratedRenderPipelines: []
-=======
-  - Light Layer 1
-  - Light Layer 2
-  - Light Layer 3
-  - Light Layer 4
-  - Light Layer 5
-  - Light Layer 6
-  - Light Layer 7
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
->>>>>>> e51ca0ba76a85181332468a4ca1e3ad9146f84e2
