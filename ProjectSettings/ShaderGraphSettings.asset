@@ -2,11 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &1
 MonoBehaviour:
-<<<<<<< HEAD
   m_ObjectHideFlags: 53
-=======
-  m_ObjectHideFlags: 61
->>>>>>> e51ca0ba76a85181332468a4ca1e3ad9146f84e2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15,14 +11,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de02f9e1d18f588468e474319d09a723, type: 3}
   m_Name: 
-<<<<<<< HEAD
   m_EditorClassIdentifier: Unity.ShaderGraph.Editor::UnityEditor.ShaderGraph.ShaderGraphProjectSettings
   shaderVariantLimit: 2048
   overrideShaderVariantLimit: 0
-=======
-  m_EditorClassIdentifier: 
-  shaderVariantLimit: 128
->>>>>>> e51ca0ba76a85181332468a4ca1e3ad9146f84e2
   customInterpolatorErrorThreshold: 32
   customInterpolatorWarningThreshold: 16
   customHeatmapValues: {fileID: 0}
