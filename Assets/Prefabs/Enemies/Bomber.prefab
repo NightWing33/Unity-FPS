@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062a6a3f555a2747ab610721ccdbd77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  bomberExplosionVFX: {fileID: 7357158233307512838, guid: 4e975df679694a54aa4069eafc563335, type: 3}
+  ExplosionVFX: {fileID: 7357158233307512838, guid: 4e975df679694a54aa4069eafc563335, type: 3}
   startingHealth: 3
 --- !u!136 &4037232972359876255
 CapsuleCollider:

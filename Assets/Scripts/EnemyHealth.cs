@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] GameObject bomberExplosionVFX;
+    [SerializeField] GameObject ExplosionVFX;
     [SerializeField] int startingHealth = 3;
     
     int currentHealth;
@@ -24,7 +24,23 @@ public class EnemyHealth : MonoBehaviour
 
     public void SelfDestruct()
     {
-        Instantiate(bomberExplosionVFX, transform.position, Quaternion.identity);
+        Vector3 spawnPos = transform.position;
+
+        Collider col = GetComponent<Collider>();
+        if (col != null)
+        {
+            spawnPos = col.bounds.center;
+        }
+        else
+        {
+            Renderer rend = GetComponentInChildren<Renderer>();
+            if (rend != null)
+            {
+                spawnPos = rend.bounds.center;
+            }
+        }
+
+        Instantiate(ExplosionVFX, spawnPos, Quaternion.identity);
         Destroy(this.gameObject);
     }
 }

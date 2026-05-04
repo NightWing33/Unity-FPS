@@ -28,8 +28,16 @@ public class Robot : MonoBehaviour
     {
         if (other.CompareTag(PLAYER_STRING))
         {
-            EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
-            enemyHealth.SelfDestruct();
+            EnemyHealth enemyHealth = GetComponent<EnemyHealth>();
+            
+            if (enemyHealth != null)
+            {
+                enemyHealth.SelfDestruct();
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
