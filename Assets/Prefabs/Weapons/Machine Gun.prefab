@@ -80,6 +80,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
   muzzleFlash: {fileID: 8776817904159816259}
   bulletMarkOffset: 0.01
+  interactionLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1001 &4029743813536942452
 PrefabInstance:
   m_ObjectHideFlags: 0

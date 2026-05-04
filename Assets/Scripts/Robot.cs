@@ -4,6 +4,8 @@ using UnityEngine.AI;
 
 public class Robot : MonoBehaviour
 {
+    const string PLAYER_STRING = "Player";
+
     FirstPersonController player;
     NavMeshAgent agent;
 
@@ -20,5 +22,14 @@ public class Robot : MonoBehaviour
     void Update()
     {
         agent.SetDestination(player.transform.position);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag(PLAYER_STRING))
+        {
+            EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
+            enemyHealth.SelfDestruct();
+        }
     }
 }
